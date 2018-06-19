@@ -6,7 +6,7 @@
  */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { ListItem, ListItemMeta } from "zrmc";
+import { ListItem, ListItemMeta, Button } from "zrmc";
 import ActionsEditable from "./actionsEditable";
 import ConditionsActionsEditable from "./conditionsActionsEditable";
 
@@ -37,7 +37,7 @@ class ActionsItem extends Component {
     // const style = {}; /* padding: "16px" */
     let style = { color, height: "100%", padding: "0px 16px" };
     if (isNew) {
-      style = { ...style, minHeight: "40px" };
+      style = { ...style, minHeight: "40px", backgroundColor: "#b3b3b319" };
     }
     if (isCondition) {
       style = { ...style, height: "auto", padding: "16px" };
@@ -96,7 +96,14 @@ class ActionsItem extends Component {
           />
         )}
         {isNew ? (
-          <div />
+          <ListItemMeta
+            onClick={() => {
+              this.props.onAddAction(action, isCondition);
+            }}
+            style={{ opacity: 1 }}
+          >
+            <Button>ADD</Button>
+          </ListItemMeta>
         ) : (
           <ListItemMeta
             icon="delete"

@@ -44,6 +44,7 @@ exports[`components/intentDetail can render intent with special characters corre
           role="menuitem"
           style={
             Object {
+              "backgroundColor": "#b3b3b319",
               "color": "rgb(0, 0, 0)",
               "height": "100%",
               "minHeight": "40px",
@@ -67,9 +68,22 @@ exports[`components/intentDetail can render intent with special characters corre
             onMouseUp={[Function]}
             onTouchEnd={[Function]}
             spellCheck={false}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
             tabIndex={0}
           >
-            <span>
+            <span
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
               <span
                 className={undefined}
                 data="text"
@@ -79,15 +93,37 @@ exports[`components/intentDetail can render intent with special characters corre
                 style={
                   Object {
                     "display": "inline-block",
+                    "flex": "1",
                     "padding": "0 4px",
-                    "width": "100vw",
                   }
                 }
                 tabIndex={1}
               />
             </span>
           </div>
-          <div />
+          <span
+            className="mdc-list-item__meta"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            role="button"
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            tabIndex="0"
+          >
+            <button
+              className="mdc-button"
+              disabled={false}
+              id={null}
+              onClick={null}
+              type="button"
+            >
+              
+              ADD
+            </button>
+          </span>
         </li>
       </div>
     </div>
@@ -129,6 +165,7 @@ exports[`components/intentDetail can render intent with special characters corre
           role="menuitem"
           style={
             Object {
+              "backgroundColor": "#b3b3b319",
               "color": "rgb(0, 0, 0)",
               "height": "100%",
               "minHeight": "40px",
@@ -152,9 +189,22 @@ exports[`components/intentDetail can render intent with special characters corre
             onMouseUp={[Function]}
             onTouchEnd={[Function]}
             spellCheck={false}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
             tabIndex={0}
           >
-            <span>
+            <span
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
               <span
                 className={undefined}
                 data="text"
@@ -164,15 +214,37 @@ exports[`components/intentDetail can render intent with special characters corre
                 style={
                   Object {
                     "display": "inline-block",
+                    "flex": "1",
                     "padding": "0 4px",
-                    "width": "100vw",
                   }
                 }
                 tabIndex={1}
               />
             </span>
           </div>
-          <div />
+          <span
+            className="mdc-list-item__meta"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            role="button"
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            tabIndex="0"
+          >
+            <button
+              className="mdc-button"
+              disabled={false}
+              id={null}
+              onClick={null}
+              type="button"
+            >
+              
+              ADD
+            </button>
+          </span>
         </li>
       </div>
     </div>
@@ -320,6 +392,7 @@ exports[`components/intentDetail renders correctly 1`] = `
           role="menuitem"
           style={
             Object {
+              "backgroundColor": "#b3b3b319",
               "color": "rgb(0, 0, 0)",
               "height": "100%",
               "minHeight": "40px",
@@ -343,9 +416,22 @@ exports[`components/intentDetail renders correctly 1`] = `
             onMouseUp={[Function]}
             onTouchEnd={[Function]}
             spellCheck={false}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
             tabIndex={0}
           >
-            <span>
+            <span
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
               <span
                 className={undefined}
                 data="text"
@@ -355,15 +441,37 @@ exports[`components/intentDetail renders correctly 1`] = `
                 style={
                   Object {
                     "display": "inline-block",
+                    "flex": "1",
                     "padding": "0 4px",
-                    "width": "100vw",
                   }
                 }
                 tabIndex={1}
               />
             </span>
           </div>
-          <div />
+          <span
+            className="mdc-list-item__meta"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            role="button"
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            tabIndex="0"
+          >
+            <button
+              className="mdc-button"
+              disabled={false}
+              id={null}
+              onClick={null}
+              type="button"
+            >
+              
+              ADD
+            </button>
+          </span>
         </li>
       </div>
     </div>
@@ -405,6 +513,7 @@ exports[`components/intentDetail renders correctly 1`] = `
           role="menuitem"
           style={
             Object {
+              "backgroundColor": "#b3b3b319",
               "color": "rgb(0, 0, 0)",
               "height": "100%",
               "minHeight": "40px",
@@ -428,9 +537,22 @@ exports[`components/intentDetail renders correctly 1`] = `
             onMouseUp={[Function]}
             onTouchEnd={[Function]}
             spellCheck={false}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
             tabIndex={0}
           >
-            <span>
+            <span
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
               <span
                 className={undefined}
                 data="text"
@@ -440,15 +562,37 @@ exports[`components/intentDetail renders correctly 1`] = `
                 style={
                   Object {
                     "display": "inline-block",
+                    "flex": "1",
                     "padding": "0 4px",
-                    "width": "100vw",
                   }
                 }
                 tabIndex={1}
               />
             </span>
           </div>
-          <div />
+          <span
+            className="mdc-list-item__meta"
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            role="button"
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            tabIndex="0"
+          >
+            <button
+              className="mdc-button"
+              disabled={false}
+              id={null}
+              onClick={null}
+              type="button"
+            >
+              
+              ADD
+            </button>
+          </span>
         </li>
       </div>
     </div>
