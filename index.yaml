@@ -1,34 +1,40 @@
 apiVersion: v1
 entries:
   opla-front:
-  - created: 2018-06-19T12:21:14.591043117Z
+  - created: 2018-06-19T12:31:52.250302016Z
     digest: 94f0a6fbe5fbfb1a0234acb7f9a04edf2ae470f0138dec071e076c33ba67fcb8
     name: opla-front
     urls:
     - opla-front-0.1.0.tgz
     version: 0.1.0
-  - created: 2018-06-19T12:21:14.590788154Z
+  - created: 2018-06-19T12:31:52.250044869Z
     digest: 3bd08fed6186497e214701f341f249e96f268d7a5faa6d4e66b28f0b834a6945
     name: opla-front
     urls:
     - opla-front-0.1.0-pre.tgz
     version: 0.1.0-pre
-  - created: 2018-06-19T12:21:14.590494608Z
+  - created: 2018-06-19T12:31:52.249783092Z
+    digest: 603ffe1a88747d16116b8e1bcd97a0e195a2cd8573306867d936b3f4b937b3d2
+    name: opla-front
+    urls:
+    - opla-front-0.1.0-c54b47ab237d82b02673c7caa473e31e73eadb87.tgz
+    version: 0.1.0-c54b47ab237d82b02673c7caa473e31e73eadb87
+  - created: 2018-06-19T12:31:52.249511281Z
     digest: 67e2f8503a4d14a3aec830c5845271ca8e29d4e785b9bb61391edc0b52e89214
     name: opla-front
     urls:
     - opla-front-0.1.0-3cfaae96411ab56a49016c7de3af21d0fb40afd6.tgz
     version: 0.1.0-3cfaae96411ab56a49016c7de3af21d0fb40afd6
-  - created: 2018-06-19T12:21:14.590222642Z
+  - created: 2018-06-19T12:31:52.249174173Z
     digest: a4099b67bf78029672dab09b2c4e7a192ed4ffcdc083f3255c44884f5ddb9488
     name: opla-front
     urls:
     - opla-front-0.1.0-1d53c778caa03765fd4fd317ffbc197071b107c4.tgz
     version: 0.1.0-1d53c778caa03765fd4fd317ffbc197071b107c4
-  - created: 2018-06-19T12:21:14.591297846Z
+  - created: 2018-06-19T12:31:52.250563753Z
     digest: 0506580ddfc5df843e08809ca146e00413642fcdba1fff6477ed308563c41211
     name: opla-front
     urls:
     - opla-front-3cfaae96411ab56a49016c7de3af21d0fb40afd6.tgz
     version: 3cfaae96411ab56a49016c7de3af21d0fb40afd6
-generated: 2018-06-19T12:21:14.589726382Z
+generated: 2018-06-19T12:31:52.248623953Z
